@@ -22,7 +22,7 @@ module.exports = {
   run: async (client, message, args, plusArgs, cmdUser, text, prefix) => {
     try {
       message.reply({embeds: [new Discord.MessageEmbed()
-      .setAuthor(`Avatar from: ${message.guild.name}`, message.guild.iconURL({dynamic: true}), "https://discord.gg/FQGXbypRf8")
+      .setAuthor(`Avatar from: ${message.guild.name}`, message.guild.iconURL({dynamic: true}), "https://discord.gg/sint0-hacker-man")
       .setColor(ee.color)
       .addField("❱ PNG",`[\`LINK\`](${message.guild.iconURL({format: "png"})})`, true)
       .addField("❱ JPEG",`[\`LINK\`](${message.guild.iconURL({format: "jpg"})})`, true)
